@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: order-service-app
-        image: harbor.tanzu.cloudification.in/library/order-service-app-demo #Harbor or Docker hub image path and name
+        image: rajivmca2004/order-service #Harbor or Docker hub image path and name
         ports:
         - containerPort: 8012
           name: server
