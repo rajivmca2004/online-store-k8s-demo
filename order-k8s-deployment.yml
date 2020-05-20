@@ -33,6 +33,15 @@ spec:
       containers:
       - name: order-service-app
         image: rajivmca2004/order-service #Harbor or Docker hub image path and name
+        env:
+        - name: CATALOGUE_HOST
+          value: catalogue-service.demo.cloudification.in
+        - name: CATALOGUE_PORT
+          value: 8010
+        - name: CUSTOMER_HOST
+          value: customer-management-service.demo.cloudification.in
+        - name: CUSTOMER_PORT
+          value: 8011
         ports:
         - containerPort: 8012
           name: server
