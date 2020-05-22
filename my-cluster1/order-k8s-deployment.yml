@@ -35,11 +35,11 @@ spec:
         image: rajivmca2004/order-service #Harbor or Docker hub image path and name
         env:
         - name: CATALOGUE_HOST
-          value: catalogue-service
+          value: catalogue-service.onlinestore.demo
         - name: CATALOGUE_PORT
           value: "8010"
         - name: CUSTOMER_HOST
-          value: customer-management-service
+          value: customer-management-service.onlinestore.demo
         - name: CUSTOMER_PORT
           value: "8011"
         ports:
