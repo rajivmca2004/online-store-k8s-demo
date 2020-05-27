@@ -44,6 +44,6 @@ spec:
           value: "8011"
         ports:
         - containerPort: 8012
-          name: server
+          name: http-server
       imagePullSecrets: # Only required with private image repository like Harbor,jFrog etc
         - name: regcred

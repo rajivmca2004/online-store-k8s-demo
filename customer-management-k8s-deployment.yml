@@ -35,6 +35,6 @@ spec:
         image: rajivmca2004/customer-management-service
         ports:
         - containerPort: 8011
-          name: server
+          name: http-server
       imagePullSecrets: # Only required with private image repository like Harbor,jFrog etc
         - name: regcred
