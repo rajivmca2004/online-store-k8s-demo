@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: catalogue-service-app
-        image: rajivmca2004/catalogue-service
+        image: itsrajivsrivastava/catalogue-service
         ports:
         - containerPort: 8010
           name: http-server

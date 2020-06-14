@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: order-service-app
-        image: rajivmca2004/order-service #Harbor or Docker hub image path and name
+        image: itsrajivsrivastava/order-service #Harbor or Docker hub image path and name
         env:
         - name: CATALOGUE_HOST
           value: catalogue-service
