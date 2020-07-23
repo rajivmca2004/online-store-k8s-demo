@@ -36,6 +36,6 @@ spec:
         image: itsrajivsrivastava/catalogue-service
         ports:
         - containerPort: 8010
-          name: server
+          name: http-server
       imagePullSecrets: # Only required with private image repository like Harbor,jFrog etc
         - name: regcred
