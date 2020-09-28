@@ -7,6 +7,7 @@ spec:
   ports:
   - port: 8012
     protocol: TCP
+    name: http
     targetPort: 8012
   selector:
     app: order-service-app
